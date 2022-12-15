@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/allamlucas/calculadora/static/css/main.0a988d71.css",
+    "main.js": "/allamlucas/calculadora/static/js/main.f388ab27.js",
+    "static/media/calculadoraLogo.png": "/allamlucas/calculadora/static/media/calculadoraLogo.76ac5d26371d3b359575.png",
+    "index.html": "/allamlucas/calculadora/index.html",
+    "main.0a988d71.css.map": "/allamlucas/calculadora/static/css/main.0a988d71.css.map",
+    "main.f388ab27.js.map": "/allamlucas/calculadora/static/js/main.f388ab27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a988d71.css",
+    "static/js/main.f388ab27.js"
+  ]
+}

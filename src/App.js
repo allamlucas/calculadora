@@ -32,7 +32,7 @@ function App() {
       input[input.length - 1] === '*' ||
       input[input.length - 1] === '/'))) {
      
-        alert('no se puede')
+  
 
       }
     else {

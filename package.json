@@ -1,6 +1,6 @@
 {
   "name": "calculadora",
-  "homepage": "https://github.com/allamlucas/calculadora",
+  "homepage": "https://github.com/allamlucas/calculadora.git",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,10 +1,11 @@
 import './App.css';
-import freeCodeCampLogo from './imagenes/freecodecamplogo.svg'
+
 import Boton from './componentes/Boton.js'
 import Pantalla from './componentes/Pantalla.js';
 import BotonClear from './componentes/BotonClear.js';
 import { useState } from 'react';
 import { evaluate } from 'mathjs';
+import CalculadoraLogo from './imagenes/calculadoraLogo.png'
 
 function App() {
 
@@ -12,15 +13,8 @@ function App() {
 
   const agregarInput = val => {
     console.log(input.length)
-    console.log(val)
-//     if ((input.length === 0) && 
-//         (val === '+' ||
-//         val === '-' ||
-//         val === '*' ||
-//         val === '/'
-//     )){
-// alert('pone un numero primero')
-//       }
+   console.log(val)
+
     if (
       ((input.length === 0) && 
          (val === '+' ||
@@ -55,11 +49,11 @@ function App() {
 
   return (
     <div className='App'>
-      <div className='freecodecamp-logo-contenedor'>
+      <div className='calculadora-logo-contenedor'>
         <img
-          src={freeCodeCampLogo}
-          className='freecodecamp-logo'
-          alt='Logo de Freecodecamp'
+          src={CalculadoraLogo}
+          className='calculadora-logo'
+          alt='Logo de calculadora'
         />
       </div>
       <div className='contenedor-calculadora'>
